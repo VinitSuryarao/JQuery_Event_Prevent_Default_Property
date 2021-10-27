@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title> JQuery Test  </title>
+   <style>
+      #divA{
+         background-color: palegreen;
+         position: relative;
+         border: 1px solid black;
+      }
+   </style>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type = "text/javascript">
+
+		    // ready func call when document is ready to render
+         $(document).ready(function() 
+         {     
+            
+            $("#Yahoo").click(function(event){
+               event.preventDefault();
+            });
+
+         });
+     </script>
+<head>
+   <body>
+   <div id="divA">
+      <a href="https://in.search.yahoo.com/?fr2=inr" id="Yahoo"> Yahoo</a>
+      <a href="https://www.google.com/" id="Google"> Google</a>
+   </div>
+</body>
+</html>
